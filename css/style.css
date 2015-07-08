@@ -1,0 +1,62 @@
+body {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ddd;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+.list-contenteditable {
+    margin-bottom: 20px;
+    padding-left: 0;
+	display: table;
+	border-collapse: separate;
+    border-spacing: 0 8px;
+	margin-top: -8px;
+}
+.list-contenteditable-item {
+	display: table-row;
+}
+
+.list-contenteditable-item > div {
+	display: table-cell;
+	border-radius: 0;
+}
+.list-contenteditable-item .contenteditable-wrapper {
+	background-color: #eee;
+	padding: 15px 20px;
+	width: 100%;
+	cursor: move;
+}
+.list-contenteditable-item [contenteditable] {
+	height: auto;
+	border: none;
+	background-color: transparent;
+	cursor: auto;
+}
+.list-contenteditable-item [contenteditable]:focus {
+	outline: 0;
+}
+.list-contenteditable-item .btn {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.list-contenteditable-item .btn-add {
+	background-color: #9ace39;
+}
+.list-contenteditable-item .btn-remove {
+	background-color: #c15c44;
+}
+.list-contenteditable-item .btn[disabled] {
+	background-color: #cdcdcd;
+}
+
+pre {
+	color: white;
+	background-color: #101010;
+	border: none;
+	border-radius: 0;
+}

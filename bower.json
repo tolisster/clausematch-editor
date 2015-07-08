@@ -1,0 +1,12 @@
+{
+  "name": "clausematch-editor",
+  "description": "ClauseMatch Front-End Challege",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tolisster/clausematch-editor",
+  "dependencies": {
+    "angular": "1.4.1",
+    "bootstrap": "~3.3.4",
+    "angular-contenteditable": "0.3.7",
+    "angular-ui-sortable": "~0.13.4"
+  }
+}
